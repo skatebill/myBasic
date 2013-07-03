@@ -15,12 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\dllbasic.h">
+    <ClCompile Include="include\serviceAPI.h">
       <Filter>include</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="src\main.cpp">
+    </ClCompile>
+    <ClCompile Include="src\getintapi.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

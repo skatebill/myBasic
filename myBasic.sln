@@ -2,6 +2,11 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "myBasic", "myBasic\myBasic.vcxproj", "{5047EBB4-27CF-4725-8F75-97A21290E2B5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1E3E134F-2B91-41D0-9FAA-A7B0BB4522F2} = {1E3E134F-2B91-41D0-9FAA-A7B0BB4522F2}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "service", "service\service.vcxproj", "{1E3E134F-2B91-41D0-9FAA-A7B0BB4522F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +18,10 @@ Global
 		{5047EBB4-27CF-4725-8F75-97A21290E2B5}.Debug|Win32.Build.0 = Debug|Win32
 		{5047EBB4-27CF-4725-8F75-97A21290E2B5}.Release|Win32.ActiveCfg = Release|Win32
 		{5047EBB4-27CF-4725-8F75-97A21290E2B5}.Release|Win32.Build.0 = Release|Win32
+		{1E3E134F-2B91-41D0-9FAA-A7B0BB4522F2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1E3E134F-2B91-41D0-9FAA-A7B0BB4522F2}.Debug|Win32.Build.0 = Debug|Win32
+		{1E3E134F-2B91-41D0-9FAA-A7B0BB4522F2}.Release|Win32.ActiveCfg = Release|Win32
+		{1E3E134F-2B91-41D0-9FAA-A7B0BB4522F2}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
